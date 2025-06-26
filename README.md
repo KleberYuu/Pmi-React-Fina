@@ -8,7 +8,7 @@
 
 🧑‍💻👩‍💻 **Equipe:** Kleber Silva dos Santos, Gilberto Junior, André, Vitor e Valentina.
 
-🛠️ **Recursos/Tecnologias Utilizados:** HTML, CSS, PYTHON, MongoDB
+🛠️ **Recursos/Tecnologias Utilizados:** REACT, VITE, Node.js, MYSQL
 
 ---
 
