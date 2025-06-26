@@ -1,0 +1,203 @@
+/* Container principal com gradiente de fundo */
+.calcule-facil-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo Calcule Fácil */
+  .logo-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .logo-calcule {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .logo-facil {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 4px;
+  }
+  
+  /* Container principal com fundo branco */
+  .main-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+  }
+  
+  /* Container de abas */
+  .tabs-container {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab-button {
+    flex: 1;
+    color: black !important;
+    text-transform: none !important;
+    font-weight: bold !important;
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .tab-button:last-child {
+    border-right: none;
+  }
+  
+  .tab-button.active {
+    background-color: #f5f5f5;
+  }
+  
+  /* Conteúdo da aba de busca */
+  .search-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  /* Botão de buscar chave */
+  .buscar-chave-button {
+    width: 90%;
+    background-color: #1CB5E0 !important;
+    color: black !important;
+    padding: 12px !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+    border-radius: 20px !important;
+    margin-bottom: 10px;
+  }
+  
+  /* Container do input de contrato */
+  .contract-input-container {
+    display: flex;
+    width: 70%;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+  
+  .contract-label {
+    background-color: #1CB5E0;
+    color: black;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contract-input {
+    flex: 1;
+  }
+  
+  .contract-input .MuiOutlinedInput-root {
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+  }
+  
+  /* Botão Pesquisar */
+  .pesquisar-button {
+    background-color: #1CB5E0 !important;
+    color: black !important;
+    padding: 8px 30px !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+    border-radius: 20px !important;
+    margin-top: 5px;
+  }
+  
+  /* Container da chave encontrada */
+  .key-result-container {
+    display: flex;
+    width: 70%;
+    align-items: stretch;
+    margin: 10px auto;
+  }
+  
+  .key-label {
+    background-color: #1CB5E0;
+    color: black;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    font-size: 14px;
+  }
+  
+  .key-value {
+    flex: 1;
+  }
+  
+  .key-value .MuiOutlinedInput-root {
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+  }
+  
+  /* Botão Voltar */
+  .voltar-button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: black !important;
+    text-transform: none !important;
+    font-size: 12px !important;
+    min-width: auto !important;
+    padding: 0 !important;
+  }
+
+.gradient-background {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.MuiTypography-h4 {
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.MuiTextField-root {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.MuiButton-contained {
+  background-color: white !important;
+  color: #0099ff !important;
+  padding: 0.5rem 2rem !important;
+  font-weight: bold !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: #f0f0f0 !important;
+}

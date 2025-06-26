@@ -1,0 +1,270 @@
+/* Container principal com fundo cyan */
+.calcule-facil-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00ffff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo Calcule Fácil */
+.logo-container {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.logo-calcule {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo-facil {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+/* Container principal com fundo branco */
+.main-container {
+  background-color: white;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+}
+
+/* Container de abas */
+.tabs-container {
+  display: flex;
+  width: 100%;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  text-transform: none;
+}
+
+.tab-button.active {
+  border: 2px solid #00bfff;
+}
+
+/* Conteúdo das abas */
+.nova-chave-content,
+.historico-content,
+.relatorio-content {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.nova-chave-content.active,
+.historico-content.active,
+.relatorio-content.active {
+  display: flex;
+}
+
+/* Botão de buscar chave */
+.buscar-chave-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ffff;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.buscar-chave-button:hover {
+  background-color: #00e5e5;
+}
+
+/* Container do input de contrato */
+.contract-input-container {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.contract-label {
+  background-color: #00ffff;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.contract-input {
+  flex: 1;
+}
+
+.contract-input .MuiOutlinedInput-root {
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* Botão Pesquisar */
+.pesquisar-button {
+  padding: 8px 24px;
+  background-color: #00ffff;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.pesquisar-button:hover {
+  background-color: #00e5e5;
+}
+
+/* Container da chave encontrada */
+.key-result-container {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin: 15px auto;
+  gap: 10px;
+}
+
+.key-label {
+  background-color: #00ffff;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.key-value {
+  flex: 1;
+}
+
+.key-value .MuiOutlinedInput-root {
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* Botão Voltar */
+.voltar-button {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  text-transform: none;
+}
+
+/* Loading indicator */
+.loading-indicator {
+  color: #1CB5E0 !important;
+  margin: 10px 0;
+}
+
+/* Error message */
+.error-message {
+  color: #f44336;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.historico-chaves-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #00ffff;
+  padding: 16px;
+}
+
+.historico-chaves-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  min-height: 400px;
+}
+
+.tab-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.search-label {
+  background-color: #00ffff;
+  color: black;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.result-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.result-label {
+  background-color: #00ffff;
+  color: black;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.result-input {
+  flex: 1;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  background-color: #fff;
+}

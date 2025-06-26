@@ -1,0 +1,21 @@
+.header {
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  padding: 10px 20px;
+}
+
+.header-toolbar {
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  font-weight: bold;
+}
+
+.header-title-black {
+  color: black;
+}
+
+.header-title-white {
+  color: white;
+}

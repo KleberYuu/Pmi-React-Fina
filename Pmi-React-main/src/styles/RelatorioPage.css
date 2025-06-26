@@ -1,0 +1,56 @@
+.relatorio-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.relatorio-header {
+  display: flex;
+  background-color: #f0f0f0;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.relatorio-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.relatorio-row:last-child {
+  border-bottom: none;
+}
+
+.relatorio-cell {
+  flex: 1;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.relatorio-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.relatorio-button.enabled {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.relatorio-button.disabled {
+  background-color: #e0e0e0;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.relatorio-button.enabled:hover {
+  background-color: #45a049;
+}
